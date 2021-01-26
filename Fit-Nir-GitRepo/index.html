@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fit-Nir</title>
+        <link rel="stylesheet" href="Style.css">
+        <script type="text/javascript" src="ConvertibleMobile.js"></script>
+    </head>
+    <body>
+    <nav>
+        <ul class="topnav" id="dropDownClick">
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#News">News</a></li>
+            <li><a href="#Contect">Contect</a></li>
+            <li><a href="#About">About</a></li>
+            <li class="topnav-right"><a href="#singup">sing  Up</a></li>
+            <li class="topnav-right"><a href="#singin">sing  In</a></li>
+            <li class="dropDownIcon"><a href="javascript:void(0);" onclick="dropDownMenu()">&#9776;</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" id="section-1-gradient">
+       <div class="row">
+           <div class="col-6">
+               <div class="leftSide-col">
+                   <div class="col-5">
+                <div class="BIcon">
+                    <img src="FitNir.png">
+                </div>
+            </div>
+               </div>
+               <form>
+                   <div class="leftSide-col">
+                       <h2 >Username</h2>
+                       <input class="inputbox" name="Username" type="text" placeholder="Username">
+                       <h2>Password</h2>
+                       <input class="inputbox" name="Password" type="text" placeholder="Password">
+                   </div>
+               </form>
+           </div>
+           <div class="cal-6">
+               <div class="rightSide-col">
+                   <iframe class="Video" width="650" height="500" src="https://www.youtube.com/embed/g1zMBpWYwDE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               </div>
+           </div>
+       </div>
+    </div>
+
+       <head>
+           <h1 class="section2Header">Fit-Nir Professional Personal Trainer</h1>
+       </head>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="box">
+                        <div class="icon">
+                            <img  src="food.png">
+                        </div>
+                        <label>Chat with me</label>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <div class="icon">
+                            <img  src="workout.png">
+                        </div>
+                        <label>Learn to Cod</label>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <div class="icon">
+                            <img  src="docs.png">
+                        </div>
+                        <label>Build an Empire</label>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="learnMore">Learn more</button>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+           <div class="row">
+            <div class="col-7">
+                <article>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut laboreLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut laboreLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+                </article>
+            </div>
+            <div class="col-5">
+                <div class="slopeIcon">
+                    <img src="FitNir.png">
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <footer class="footsy">
+            <div class="row">
+                <div class="col-3 mobileStack">
+                    <h1>Company</h1>
+                    <ul>
+                        <li>About</li>
+                        <li>Blogs</li>
+                        <li>Creers</li>
+                    </ul>
+                </div>
+                <div class="col-3 mobileStack">
+                    <h1>Company</h1>
+                    <ul>
+                        <li>About</li>
+                        <li>Blogs</li>
+                        <li>Creers</li>
+                    </ul>
+                </div>
+                <div class="col-3 mobileStack">
+                    <h1>Company</h1>
+                    <ul>
+                        <li>About</li>
+                        <li>Blogs</li>
+                        <li>Creers</li>
+                    </ul>
+                </div>
+                <div class="col-3 mobileStack">
+                    <h1>Company</h1>
+                    <ul>
+                        <li>About</li>
+                        <li>Blogs</li>
+                        <li>Creers</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <script>
+        function dropDownMenu(){
+            var x = document.getElementById("dropDownClick");
+            if (x.className === "topnav"){
+                x.className += " responsive";
+                /*change topnav to topnav.responsive*/
+            }else{
+                x.className = "topnav";
+            }
+        }
+        </script>
+    </body>
+</html>
